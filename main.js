@@ -1,2 +1,2 @@
-location.href = document.querySelector('#login .link-btn').href
-window.close()
+document.querySelector('#login .link-btn').click()
+setTimeout(() => {window.close()}, 2000)
