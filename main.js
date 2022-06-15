@@ -1,2 +1,2 @@
-document.querySelector('#login .link-btn').click()
+document.querySelectorAll('#login .link-btn')[1].click()
 setTimeout(() => {window.close()}, 2000)
